@@ -1,0 +1,38 @@
+.profile-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.preview-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.uploadPfp {
+    font-size: 13px;
+    padding: 13px;
+    width: 70%;
+    background-color: transparent;
+    border: 3px solid rgba(30, 99, 219, 0.872);
+    color: rgba(17, 81, 191, 0.872);
+    border-radius: 30px;
+    transition: 0.8s;
+}
+
+.uploadPfp:hover {
+color: white;
+background-color: rgba(17, 81, 191, 0.872);
+}
+
+/* Mobile screens */
+@media screen and (max-width: 768px) {
+.uploadPfp {
+    width: 100%;
+}
+}
+
